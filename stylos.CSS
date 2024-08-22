@@ -1,0 +1,174 @@
+.CABEZERA{
+    background-color: rgb(26, 131, 131);
+    text-align: center;
+}
+
+
+.boton{
+    display: inline-block;
+    background-color: rgb(68, 116, 212);
+    border-radius: 15%;
+    color: aquamarine;
+    text-align: left;
+    padding: 15px 30px;
+    font-size: 25px;
+    transition: background-color  2s ease; 
+
+}
+
+.boton2{
+    display: inline-block;
+    background-color: rgb(72, 96, 220);
+    border-radius: 15%;
+    color: rgb(11, 108, 66);
+    text-align: left;
+    padding: 15px 30px;
+    font-size: 25px;
+    transition: background-color  2s ease; 
+
+}
+
+.boton3{
+    display: inline-block;
+    background-color: rgb(163, 84, 203);
+    border-radius: 15%;
+    color: rgb(125, 165, 183);
+    text-align: left;
+    padding: 15px 30px;
+    font-size: 25px;
+    transition: background-color  2s ease; 
+
+}
+
+.boton4{
+    display: inline-block;
+    background-color: rgb(200, 212, 107);
+    border-radius: 15%;
+    color: rgb(37, 222, 130);
+    text-align: left;
+    padding: 15px 30px;
+    font-size: 25px;
+    transition: background-color  2s ease; 
+
+}
+
+.boton:hover{
+     background-color: rgb(85, 119, 182);
+     color: rgb(221, 218, 6);
+
+}
+
+.boton2:hover{
+    background-color: rgb(68, 161, 66);
+    color: rgb(221, 218, 6);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.CABEZERA2{
+    background-color: rgb(78, 131, 184);
+    text-align: center;
+}
+
+
+.CABEZERA3{
+    background-color: rgb(33, 91, 158);
+    text-align: center;
+}
+
+
+.CABEZERA4{
+    background-color: rgb(43, 113, 183);
+    text-align: center;
+}
+
+
+
+body{
+    background-color: rgb(82, 147, 245);
+
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28PX;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40PX;
+}
+
+P{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35PX;
+}
+
+.Contenedor{
+    display: flex;
+}
+.IZQUI{
+    flex: 1;
+    background-color: rgb(20, 44, 179);
+    text-align: center;
+}
+
+.CENTRO{
+    flex: 1;
+    background-color: rgb(32, 43, 204);
+    text-align: center;
+}
+
+.DERE{
+    flex: 1;
+    background-color: rgb(35, 29, 207);
+    text-align: center;
+}
+
+
+
+.Contenedor2{
+    display: flex ;
+}
+.IZQUI2{
+    flex: 2;
+    background-color: rgb(38, 124, 175);
+    text-align: center;
+}
+
+
+.DERE2{
+    flex: 1;
+    background-color: rgb(43, 56, 200);
+    text-align: center;
+}
+
+.Contenedor3{
+    display: flex ;
+}
+.IZQUI3{
+    flex: 1;
+    background-color: rgb(236, 53, 53);
+    text-align: center;
+}
+
+
+.DERE3{
+    flex: 2;
+    background-color: rgb(151, 47, 142);
+    text-align: center;
+}
